@@ -104,6 +104,9 @@ header .navbar-brand:hover {
 .nav-item .nav-link.active {
   color: #fe6e65 !important;
 }
+.nav-item .nav-link.active i {
+  color: #fe6e65;
+}
 .dropdown-item {
   font-size: 16px;
   color: #060606 !important;
