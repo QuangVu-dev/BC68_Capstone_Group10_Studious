@@ -1813,3 +1813,7 @@ img.emoji {
   padding: 0 !important;
   margin: 0 !important;
 }
+.wp-block-pullquote {
+  font-size: 1.5em;
+  line-height: 1.6;
+}
