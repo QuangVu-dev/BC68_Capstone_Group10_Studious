@@ -1830,7 +1830,6 @@ img.emoji {
 }
 
 .blog_item_bottom {
-  border: 1px solid #eee;
   padding: 1.5rem;
   background: #fff;
   transition: 0.3s ease;
@@ -1876,7 +1875,7 @@ img.emoji {
 
 .blog_item1_right {
   position: sticky;
-  top 20px;
+  top: 20px;
 }
 
 .blog_item_border{
@@ -2033,6 +2032,62 @@ img.emoji {
   text-decoration: underline;
 }
 
+.left-sidebar p.text {
+  color: #707070;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+
+/* w3_layout  */
+.w3_layout{
+  padding: 1.5rem;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.w3_layout img{
+  width: 100%;
+}
+
+.w3_layout a.w3_title{
+  font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #060606;
+    display: inline-block;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.w3_layout .share-icons a{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+  color: #707070;
+  font-size: 18px
+}
+
+/* btn_previous  */
+.btn_previous{
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding-top: 1rem;
+  padding-bottom:1rem ;
+}
+.btn_previous a{
+  color: #060606;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.btn_previous a:hover{
+  color: #ff6e65;
+  
+}
 
 
 
